@@ -4,91 +4,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agência Criativa Web</title>
+  <link rel="stylesheet" href="layout.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Cabeçalho -->
-  <header>
-    <div class="logo">
-      <img src="logo.png" alt="Agência Criativa Web Logo">
-      <h1>Agência Criativa Web</h1>
+  <header class="header">
+    <div class="header__logo">
+      <img src="logo.png" alt="Agência Criativa Web Logo" class="header__logo-img">
+      <h1 class="header__title">Agência Criativa Web</h1>
     </div>
-    <nav>
-      <button class="menu-toggle" aria-label="Abrir Menu">☰</button>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#sobre">Quem Somos</a></li>
-        <li><a href="#servicos">Serviços</a></li>
-        <li><a href="#depoimentos">Depoimentos</a></li>
-        <li><a href="#contato">Contato</a></li>
+    <nav class="header__nav">
+      <button class="header__menu-toggle" aria-label="Abrir Menu">☰</button>
+      <ul class="header__nav-list">
+        <li class="header__nav-item"><a href="#home" class="header__nav-link">Home</a></li>
+        <li class="header__nav-item"><a href="#sobre" class="header__nav-link">Quem Somos</a></li>
+        <li class="header__nav-item"><a href="#servicos" class="header__nav-link">Serviços</a></li>
+        <li class="header__nav-item"><a href="#depoimentos" class="header__nav-link">Depoimentos</a></li>
+        <li class="header__nav-item"><a href="#contato" class="header__nav-link">Contato</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Banner -->
   <section id="home" class="banner">
-    <div class="banner-content">
-      <h2>Soluções Digitais que Transformam Ideias em Resultados</h2>
-      <p>Design moderno, tecnologia de ponta e criatividade para destacar sua marca.</p>
-      <a href="#contato" class="btn-banner">Fale Conosco</a>
+    <div class="banner__content">
+      <h2 class="banner__title">Soluções Digitais que Transformam Ideias em Resultados</h2>
+      <p class="banner__text">Design moderno, tecnologia de ponta e criatividade para destacar sua marca.</p>
+      <a href="#contato" class="banner__btn">Fale Conosco</a>
     </div>
   </section>
 
   <!-- Sobre Nós -->
-  <section id="sobre" class="sobre">
-    <h2>Sobre Nós</h2>
-    <p>Somos uma agência digital apaixonada por design, tecnologia e inovação. 
-       Nosso compromisso é criar experiências únicas que conectam marcas e pessoas. Valorizamos um atendimento personalizado e próximo sendo o nosso foco ouvir e entender cada cliente para desenvolver soluções que se encaixe na realidade financeira de cada negócio.</p>
+  <section id="sobre" class="about">
+    <h2 class="about__title">Sobre Nós</h2>
+    <p class="about__text">Somos uma agência digital apaixonada por design, tecnologia e inovação. 
+       Nosso compromisso é criar experiências únicas que conectam marcas e pessoas. Valorizamos um atendimento personalizado e próximo, sendo o nosso foco ouvir e entender cada cliente para desenvolver soluções que se encaixem na realidade financeira de cada negócio.</p>
   </section>
 
   <!-- Serviços -->
-  <section id="servicos" class="servicos">
-    <h2>Serviços</h2>
-    <div class="grid-servicos">
-      <div class="servico">🎨 Design Gráfico</div>
-      <div class="servico">💻 Desenvolvimento Web</div>
-      <div class="servico">📱 UX/UI Design</div>
-      <div class="servico">🚀 Branding</div>
-      <div class="servico">📊 Consultoria</div>
-      <div class="servico">🛠️ Suporte Técnico</div>
+  <section id="servicos" class="services">
+    <h2 class="services__title">Serviços</h2>
+    <div class="services__grid">
+      <div class="services__item">🎨 Design Gráfico</div>
+      <div class="services__item">💻 Desenvolvimento Web</div>
+      <div class="services__item">📱 UX/UI Design</div>
+      <div class="services__item">🚀 Branding</div>
+      <div class="services__item">📊 Consultoria</div>
+      <div class="services__item">🛠️ Suporte Técnico</div>
     </div>
   </section>
 
   <!-- Depoimentos -->
-  <section id="depoimentos" class="depoimentos">
-    <h2>Depoimentos</h2>
-    <div class="depoimento">"A Agência Criativa Web transformou nossa presença online!" - Cliente 1</div>
-    <div class="depoimento">"Equipe super profissional e criativa. Recomendo muito!" - Cliente 2</div>
-    <div class="depoimento">"Resultados incríveis e atendimento impecável." - Cliente 3</div>
+  <section id="depoimentos" class="testimonials">
+    <h2 class="testimonials__title">Depoimentos</h2>
+    <div class="testimonials__item">"A Agência Criativa Web transformou nossa presença online!" - Cliente 1</div>
+    <div class="testimonials__item">"Equipe super profissional e criativa. Recomendo muito!" - Cliente 2</div>
+    <div class="testimonials__item">"Resultados incríveis e atendimento impecável." - Cliente 3</div>
   </section>
 
   <!-- Contato -->
-  <section id="contato" class="contato">
-    <h2>Contato</h2>
-    <p><strong>Endereço:</strong> Rua Da Saudade, 1450 - Guarujá, SP</p>
-    <p><strong>Telefone:</strong> (13) 98765-4321</p>
-    <p><strong>Email:</strong> contato@agenciacriativaweb.com</p>
+  <section id="contato" class="contact">
+    <h2 class="contact__title">Contato</h2>
+    <p class="contact__info"><strong>Endereço:</strong> Rua Da Saudade, 1450 - Guarujá, SP</p>
+    <p class="contact__info"><strong>Telefone:</strong> (13) 98765-4321</p>
+    <p class="contact__info"><strong>Email:</strong> contato@agenciacriativaweb.com</p>
     
-    <form>
-      <input type="text" placeholder="Seu Nome" required>
-      <input type="email" placeholder="Seu Email" required>
-      <textarea placeholder="Sua Mensagem" required></textarea>
-      <button type="submit">Enviar</button>
+    <form class="contact__form">
+      <input type="text" class="contact__input" placeholder="Seu Nome" required>
+      <input type="email" class="contact__input" placeholder="Seu Email" required>
+      <textarea class="contact__textarea" placeholder="Sua Mensagem" required></textarea>
+      <button type="submit" class="contact__btn">Enviar</button>
     </form>
   </section>
 
   <!-- Rodapé -->
-  <footer>
-    <p>&copy; 2025 Agência Criativa Web. Todos os direitos reservados.</p>
+  <footer class="footer">
+    <p class="footer__text">&copy; 2025 Agência Criativa Web. Todos os direitos reservados.</p>
   </footer>
 
   <script>
-    // Script do menu hambúrguer
-    const menuToggle = document.querySelector(".menu-toggle");
-    const navLinks = document.querySelector(".nav-links");
+    const menuToggle = document.querySelector(".header__menu-toggle");
+    const navList = document.querySelector(".header__nav-list");
 
     menuToggle.addEventListener("click", () => {
-      navLinks.classList.toggle("active");
+      navList.classList.toggle("header__nav-list--active");
     });
   </script>
 </body>
