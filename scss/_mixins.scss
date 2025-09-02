@@ -1,0 +1,32 @@
+@use 'variaveis';
+
+// Centralização com flex
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Botão base
+@mixin botao($bg, $cor) {
+  background: $bg;
+  color: $cor;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background: variaveis.$cor-destaque-hover;
+  }
+}
+
+// Responsividade
+@mixin responsivo($largura) {
+  @media (max-width: $largura) {
+    @content;
+  }
+}

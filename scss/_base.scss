@@ -1,0 +1,22 @@
+@use 'variaveis';
+@use 'mixins';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: variaveis.$fonte-principal;
+  line-height: 1.6;
+  color: variaveis.$cor-texto;
+  background-color: variaveis.$cor-fundo;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: variaveis.$cor-destaque;
+}
