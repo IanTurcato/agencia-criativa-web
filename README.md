@@ -1,7 +1,8 @@
 # Agência Criativa Web
 
-Site de uma agência digital fictícia chamado **Agência Criativa Web**.  
-Projeto desenvolvido para prática de **HTML, CSS (Flexbox e Grid) e Design Responsivo**, com interatividade em JavaScript.
+Projeto de refatoração de um site institucional de agência digital, utilizando **SASS**, **BEM** e boas práticas de organização de CSS.
+
+---
 
 ## Funcionalidades
 
@@ -11,12 +12,34 @@ Projeto desenvolvido para prática de **HTML, CSS (Flexbox e Grid) e Design Resp
 - Formulário de contato básico (nome, e-mail e mensagem)
 - Grid responsivo na seção de serviços
 - Interações de hover em links e cards de serviços
+  
+---
 
 ## Tecnologias utilizadas
 
 - HTML5
-- CSS3 (Flexbox, Grid, unidades relativas e media queries)
-- JavaScript (interatividade do menu)
+- CSS3 / SASS (SCSS)
+- JavaScript (para menu responsivo)
+- Node.js (para compilação do Sass)
+
+  ---
+  
+- ## 🔹 Estrutura do Projeto
+
+agencia-criativa-web/
+│
+├── css/ # CSS compilado
+│ └── estilos.css
+├── scss/ # Arquivos SCSS
+│ ├── _base.scss
+│ ├── _variaveis.scss
+│ ├── _mixins.scss
+│ ├── _layout.scss
+│ └── _componentes.scss
+├── index.html
+└── README.md
+
+---
 
 - ## Como usar
 
